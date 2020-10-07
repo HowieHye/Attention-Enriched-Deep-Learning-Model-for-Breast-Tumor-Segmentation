@@ -27,7 +27,7 @@ If you use the codes or the methods in your work, please cite the following <a h
     author={Vakanski, A. and Xian, M. and Freer, P. E.},
     journal={Ultrasound in Medicine & Biology}, 
     year={2020},
-    month={Feb.},
+    month={Sep.},
     volume={46},
     number={10}
     pages={2819-2833},
