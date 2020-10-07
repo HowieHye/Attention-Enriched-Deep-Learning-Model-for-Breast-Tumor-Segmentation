@@ -20,6 +20,10 @@ This repository uses an open public dataset of breast ultrasound images known as
 * Saliency - saliency maps for the 163 breast ultrasound images; the maps are obtained based on our approach presented in <a href="https://ieeexplore.ieee.org/document/8545599">Xu et al. (2019) A Hybrid Framework for Tumor Saliency Estimation</a>.
 * Saliency_maps_118 - a reduced set of saliency maps consisting of 118 images.
 
+# Network Architecture
+<img style=\"float: left; height:200px;\" src=\"images\model.jpg\">
+Architecture of the proposed U-Net model with salient attention. The model uses breast ultrasound images and saliency maps as inputs and produces segmentation probability maps as outputs. Conv = convolution; Deconv = deconvolution.
+
 # Citation
 If you use the codes or the methods in your work, please cite the following <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301562920302878">article</a>:   
 
