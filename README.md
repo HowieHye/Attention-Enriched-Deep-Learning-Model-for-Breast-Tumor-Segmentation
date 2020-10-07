@@ -1,12 +1,26 @@
 # Attention-Enriched-Deep-Learning-Model-for-Breast-Tumor-Segmentation-in-Ultrasound-Images
 
-The proposed framework for automated quality assessment of physical rehabilitation exercises encompasses metrics for quantifying movement performance, scoring functions for mapping the performance metrics into numerical scores of movement quality, techniques for dimensionality reduction, and deep neural network models for regressing quality scores of input movements via supervised learning. 
+The codes in this repository are based on our work presented in the paper <a href="https://arxiv.org/abs/1910.08978">Attention Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images</a>. 
 
-The codes in this repository are based on the eponymous research project <a href="https://arxiv.org/abs/1901.10435">A Deep Learning Framework for Assessing Physical Rehabilitation Exercises</a>. 
 
+# Citation
+If you use the codes or the methods in your work, please cite the following <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301562920302878">article</a>:   
+
+    @ARTICLE{Vakanski2020,
+    title={Attention-Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images},
+    author={Vakanski, A. and Xian, M. and Freer, P. E.},
+    journal={Ultrasound in Medicine & Biology}, 
+    year={2020},
+    month={Feb.},
+    volume={46},
+    number={10}
+    pages={2819-2833},
+    doi={https://doi.org/10.1016/j.ultrasmedbio.2020.06.015}
+    }
 
 # License
-MIT License
+<a href="License - MIT.txt">MIT License</a>
+
 
 # Acknowledgments
 This work was supported by the <a href="https://imci.uidaho.edu/get-involved/about-cmci/">Institute for Modeling Collaboration and Innovation (IMCI)</a> at the University of Idaho through NIH Award #P20GM104420.
