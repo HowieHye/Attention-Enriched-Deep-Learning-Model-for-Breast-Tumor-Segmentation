@@ -21,9 +21,9 @@ This repository uses an open public dataset of breast ultrasound images known as
 * Saliency_maps_118 - a reduced set of saliency maps consisting of 118 images.
 
 # Network Architecture
-![SA-UNet Architecture](images/model.jpg?raw=true)
+The architecture of the proposed Salient Attention U-Net model. The network uses breast ultrasound images and saliency maps as inputs, and produces segmentation probability maps as outputs. Conv = convolution; Deconv = deconvolution.
 
-Architecture of the proposed Salient Attention U-Net model. The network uses breast ultrasound images and saliency maps as inputs and produces segmentation probability maps as outputs. Conv = convolution; Deconv = deconvolution.
+![SA-UNet Architecture](images/model.jpg)
 
 # Salient Attention Block
 ![Attention Block](images/attention_block.jpg?raw=true)
