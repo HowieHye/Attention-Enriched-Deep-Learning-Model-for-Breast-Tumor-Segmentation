@@ -23,7 +23,12 @@ This repository uses an open public dataset of breast ultrasound images known as
 # Network Architecture
 ![SA-UNet Architecture](images/model.jpg?raw=true)
 
-Architecture of the proposed U-Net model with salient attention. The model uses breast ultrasound images and saliency maps as inputs and produces segmentation probability maps as outputs. Conv = convolution; Deconv = deconvolution.
+Architecture of the proposed Salient Attention U-Net model. The network uses breast ultrasound images and saliency maps as inputs and produces segmentation probability maps as outputs. Conv = convolution; Deconv = deconvolution.
+
+# Salient Attention Block
+![Attention Block](images/attention_block.jpg?raw=true)
+
+Attention block n for n = {1, 2, 3, 4}. Inputs to the block are feature maps from layer n and a salient map, whereas the output constitues feature maps weighted with the attention coefficients.
 
 # Citation
 If you use the codes or the methods in your work, please cite the following <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301562920302878">article</a>:   
