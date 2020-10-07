@@ -12,10 +12,10 @@ Jupyter notebooks present the implementation of the proposed approach using Kera
 * <a href="Codes/SA_UNet_reduced_set.ipynb">SA_UNet_reduced_set</a> - Salient Attention U-Net model applied on a reduced version of the dataset consisting of 118 images. The quality of the saliency maps can vary significantly across a collection of images; therefore, in the article we proposed an algorithm for estimating the confidence level of the saliency maps and eliminating the saliency maps with low confidence.
 
 # Data
-This repository uses an open public dataset of breast ultrasound images known as <ahref="https://ieeexplore.ieee.org/document/8003418">Dataset B</a> for implementing the proposed approach. Note that the implementation in this repository is different than the validation presented in the paper, which is based on a larger dataset that is not public. 
+This repository uses an open public dataset of breast ultrasound images known as <a href="https://ieeexplore.ieee.org/document/8003418">Dataset B</a> for implementing the proposed approach. Note that the implementation in this repository is different than the validation presented in the paper, which is based on a larger dataset that is not public. 
 * Images - the dataset consists of 163 breast ultrasound images.
 * Masks - segmentation masks corresponding to the images.
-* Saliency - saliency maps for the 163 breast ultrasound images; the maps are obtained based on our approach presented in <ahref="https://ieeexplore.ieee.org/document/8545599">Xu et al. (2019)</a>.
+* Saliency - saliency maps for the 163 breast ultrasound images; the maps are obtained based on our approach presented in <a href="https://ieeexplore.ieee.org/document/8545599">Xu et al. (2019)</a>.
 * Saliency_maps_118 - a reduced set of saliency maps consisting of 118 images.
 
 # Citation
