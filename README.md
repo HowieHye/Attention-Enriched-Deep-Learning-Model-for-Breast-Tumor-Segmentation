@@ -1,5 +1,7 @@
 # Attention-Enriched-Deep-Learning-Model-for-Breast-Tumor-Segmentation-in-Ultrasound-Images
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/attention-enriched-deep-learning-model-for/tumor-segmentation-on-bus-2017-dataset-b)](https://paperswithcode.com/sota/tumor-segmentation-on-bus-2017-dataset-b?p=attention-enriched-deep-learning-model-for)
+
 The codes in this repository are based on our work presented in the paper <a href="https://arxiv.org/abs/1910.08978">Attention Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images</a>. 
 
 An important avenue for improved performance of data-driven models is via incorporating prior domain-specific knowledge. Incorporating prior knowledge in deep models for breast cancer detection is challenging, because unlike other medical organs—such as the kidney or the heart, whose features naturally lend themselves to the application of shape or boundary priors—breast tumors have large variability in shape and boundaries from case to case. Extracting other priors in the form of curvature, texture, intensity, or number of regions for breast tumors is also not an option.
