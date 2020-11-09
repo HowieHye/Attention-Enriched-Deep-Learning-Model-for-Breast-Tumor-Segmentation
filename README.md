@@ -23,8 +23,8 @@ This repository uses an open public dataset of breast ultrasound images known as
 * Saliency_maps_118 - a reduced set of saliency maps consisting of 118 images.
 
 # Segmentation Results
-The figure shows the segmentation results by the models on several images. First column: original breast ultrasound image. Second column: Ground truth mask. Third
-column: Saliency map. Fourth column: Segmentation mask produced by UNet. Fifth column: Segmentation mask produced by SA UNet. Sixth column: Segmentation mask produced by U-Net-SA-C.
+The figure shows the segmentation results for several images. First column: original breast ultrasound image. Second column: ground truth mask. Third
+column: saliency map. Fourth column: segmentation mask produced by U-Net. Fifth column: segmentation mask produced by Salient Attention U-Net. Sixth column: segmentation mask produced by Salient Attention U-Net using saliency maps containing the largest connected region.
 
 ![Segmentation Results](Figures/figure_with_results.jpg)
 
