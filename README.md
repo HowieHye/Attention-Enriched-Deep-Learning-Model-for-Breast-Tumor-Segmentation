@@ -12,7 +12,7 @@ U-Net architecture and learns feature representations that prioritize spatial re
 # Codes
 Jupyter notebooks present the implementation of the proposed approach using Keras and Tensorflow libraries.
 * <a href="Codes/UNet.ipynb">UNet</a> - implementation of the standard U-Net model for breast tumor segmentation. The U-Net is used as a baseline model for evaluation of our approach.
-* <a href="Codes/SA_UNet.ipynb">SA_UNet</a> - our proposed Salient Attention U-Net model. It applies attention blocks to saliency maps of breast ultrasound images. 
+* <a href="Codes/SA_UNet.ipynb">SA_UNet</a> <a href="https://nbviewer.jupyter.org/github/avakanski/Attention-Enriched-Deep-Learning-Model-for-Breast-Tumor-Segmentation/blob/main/Codes/SA_UNet.ipynb">on nbviewer]</a>- our proposed Salient Attention U-Net model. It applies attention blocks to saliency maps of breast ultrasound images. 
 * <a href="Codes/SA_UNet_reduced_set.ipynb">SA_UNet_reduced_set</a> - Salient Attention U-Net model applied on a reduced version of the dataset consisting of 118 images. The quality of the saliency maps can vary significantly across a collection of images; therefore, in the article we proposed an algorithm for estimating the confidence level of the saliency maps and eliminating the saliency maps with low confidence.
 
 # Data
