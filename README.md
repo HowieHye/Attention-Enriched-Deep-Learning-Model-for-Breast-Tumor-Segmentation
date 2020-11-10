@@ -27,6 +27,9 @@ The figure shows the segmentation results for several images. First column: orig
 column: saliency map. Fourth column: segmentation mask produced by U-Net. Fifth column: segmentation mask produced by Salient Attention U-Net.
 
 <div style="text-align:center"><img src="Figures/figure_with_results.jpg" /></div>
+<p align="center">
+  <img width="600" height="200" src="Figures/figure_with_results.jpg">
+</p>
 
 # Network Architecture
 The architecture of the proposed Salient Attention U-Net model. The network uses breast ultrasound images and saliency maps as inputs, and produces segmentation probability maps as outputs. Conv = convolution; Deconv = deconvolution.
