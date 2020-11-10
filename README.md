@@ -27,7 +27,7 @@ The figure shows the segmentation results for several images. First column: orig
 column: saliency map. Fourth column: segmentation mask produced by U-Net. Fifth column: segmentation mask produced by Salient Attention U-Net.
 
 <p align="center">
-  <img width="800" src="Figures/figure_with_results.jpg">
+  <img width="720" src="Figures/figure_with_results.jpg">
 </p>
 
 # Network Architecture
@@ -39,7 +39,7 @@ The architecture of the proposed Salient Attention U-Net model. The network uses
 The proposed attention block n for n = {1, 2, 3, 4} is shown. Inputs to the block are feature maps from layer n and a salient map, whereas the output constitutes downsampled feature maps weighted with the attention coefficients.
 
 <p align="center">
-  <img width="800" src="Figures/attention_block.jpg">
+  <img height="600" src="Figures/attention_block.jpg">
 </p>
 
 # Citation
