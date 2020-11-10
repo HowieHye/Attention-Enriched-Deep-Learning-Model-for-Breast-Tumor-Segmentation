@@ -39,6 +39,9 @@ The architecture of the proposed Salient Attention U-Net model. The network uses
 The proposed attention block n for n = {1, 2, 3, 4} is shown. Inputs to the block are feature maps from layer n and a salient map, whereas the output constitutes downsampled feature maps weighted with the attention coefficients.
 
 ![Attention Block](Figures/attention_block.jpg)
+<p align="center">
+  <img width="699" src="Figures/attention_block.jpg">
+</p>
 
 # Citation
 If you use the codes or the methods in your work, please cite the following <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301562920302878">article</a>:   
