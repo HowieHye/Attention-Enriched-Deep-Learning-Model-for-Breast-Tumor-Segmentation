@@ -26,9 +26,8 @@ This repository uses an open public dataset of breast ultrasound images known as
 The figure shows the segmentation results for several images. First column: original breast ultrasound image. Second column: ground truth mask. Third
 column: saliency map. Fourth column: segmentation mask produced by U-Net. Fifth column: segmentation mask produced by Salient Attention U-Net.
 
-<div style="text-align:center"><img src="Figures/figure_with_results.jpg" /></div>
 <p align="center">
-  <img width="600" height="200" src="Figures/figure_with_results.jpg">
+  <img width="699" src="Figures/figure_with_results.jpg">
 </p>
 
 # Network Architecture
