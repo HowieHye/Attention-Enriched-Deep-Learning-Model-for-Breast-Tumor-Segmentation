@@ -26,8 +26,7 @@ This repository uses an open public dataset of breast ultrasound images known as
 The figure shows the segmentation results for several images. First column: original breast ultrasound image. Second column: ground truth mask. Third
 column: saliency map. Fourth column: segmentation mask produced by U-Net. Fifth column: segmentation mask produced by Salient Attention U-Net.
 
-%![Segmentation Results](Figures/figure_with_results.jpg)
-<img style="float: left;" src="Figures/figure_with_results.jpg">
+<img style="float: center;" src="Figures/figure_with_results.jpg">
 
 # Network Architecture
 The architecture of the proposed Salient Attention U-Net model. The network uses breast ultrasound images and saliency maps as inputs, and produces segmentation probability maps as outputs. Conv = convolution; Deconv = deconvolution.
