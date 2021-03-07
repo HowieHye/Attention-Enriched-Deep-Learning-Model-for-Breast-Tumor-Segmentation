@@ -1,6 +1,7 @@
 # Attention-Enriched-Deep-Learning-Model-for-Breast-Tumor-Segmentation-in-Ultrasound-Images
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/attention-enriched-deep-learning-model-for/lesion-segmentation-on-bus-2017-dataset-b)](https://paperswithcode.com/sota/lesion-segmentation-on-bus-2017-dataset-b?p=attention-enriched-deep-learning-model-for)
+[![arXiv](https://img.shields.io/badge/arXiv-2019.08978-b31b1b)](https://arxiv.org/abs/1910.08978)
 
 The codes in this repository are based on our work presented in the paper <a href="https://arxiv.org/abs/1910.08978">Attention Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images</a>. 
 
