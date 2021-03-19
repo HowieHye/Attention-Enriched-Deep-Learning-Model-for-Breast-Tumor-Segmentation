@@ -1,6 +1,7 @@
 # Attention-Enriched-Deep-Learning-Model-for-Breast-Tumor-Segmentation-in-Ultrasound-Images
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/attention-enriched-deep-learning-model-for/lesion-segmentation-on-bus-2017-dataset-b)](https://paperswithcode.com/sota/lesion-segmentation-on-bus-2017-dataset-b?p=attention-enriched-deep-learning-model-for)
+[![arXiv](https://img.shields.io/badge/arXiv-2019.08978-b31b1b)](https://arxiv.org/abs/1910.08978)
 
 The codes in this repository are based on our work presented in the paper <a href="https://arxiv.org/abs/1910.08978">Attention Enriched Deep Learning Model for Breast Tumor Segmentation in Ultrasound Images</a>. 
 
@@ -16,11 +17,7 @@ Jupyter notebooks present the implementation of the proposed approach using Kera
 * <a href="Codes/SA_UNet_reduced_set.ipynb">SA_UNet_reduced_set</a> [<a href="https://nbviewer.jupyter.org/github/avakanski/Attention-Enriched-Deep-Learning-Model-for-Breast-Tumor-Segmentation/blob/main/Codes/SA_UNet_reduced_set.ipynb">on nbviewer</a>] - Salient Attention U-Net model applied on a reduced version of the dataset consisting of 118 images. The quality of the saliency maps can vary significantly across a collection of images; therefore, in the article we proposed an algorithm for estimating the confidence level of the saliency maps and eliminating the saliency maps with low confidence.
 
 # Data
-This repository uses an open public dataset of breast ultrasound images known as <a href="https://ieeexplore.ieee.org/document/8003418">Dataset B</a> for implementing the proposed approach. Note that the implementation in this repository is different from the validation presented in the paper, which is based on a larger dataset that is not public. 
-* Images - the dataset consists of 163 breast ultrasound images.
-* Masks - segmentation masks corresponding to the images.
-* Saliency - saliency maps for the 163 breast ultrasound images; the maps are obtained based on our approach presented in <a href="https://ieeexplore.ieee.org/document/8545599">Xu et al. (2019) A Hybrid Framework for Tumor Saliency Estimation</a>.
-* Saliency_maps_118 - a reduced set of saliency maps consisting of 118 images.
+The codes use an open public dataset of breast ultrasound images known as <a href="https://ieeexplore.ieee.org/document/8003418">Dataset B</a> for implementing the proposed approach. The dataset consists of 163 breast ultrasound images and the corresponding segmentation masks. Note that the implementation in this repository is different from the experimental validation presented in the paper, which is based on a larger dataset that is not public. 
 
 # Segmentation Results
 The figure shows the segmentation results for several images. First column: original breast ultrasound image. Second column: ground truth mask. Third
